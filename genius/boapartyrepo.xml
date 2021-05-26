@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<boaPartiesList>
+    <boaparties partyName="B-Nozomi_O-Uniform_A-HardHeaded">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2010.Nozomi_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_HardHeaded"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.UniformModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="t" value="1.1"/>
+            <parameters name="n" value="3.0"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-TheNegotiator_O-Uniform_A-HardHeaded">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.TheNegotiator_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_HardHeaded"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.UniformModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="n" value="3.0"/>
+            <parameters name="t" value="1.1"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-Nozomi_O-Opposite_A-HardHeaded">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2010.Nozomi_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_HardHeaded"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.OppositeModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="n" value="3.0"/>
+            <parameters name="t" value="1.1"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-TheNegotiator_O-Opposite_A-HardHeaded">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.TheNegotiator_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_HardHeaded"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.OppositeModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="t" value="1.1"/>
+            <parameters name="n" value="3.0"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-Nozomi_O-Uniform_A-IAmHaggler2011">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2010.Nozomi_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_IAMHaggler2011"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.UniformModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="n" value="3.0"/>
+            <parameters name="t" value="1.1"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-TheNegotiator_O-Opposite_A-IAmHaggler2011">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.TheNegotiator_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_IAMHaggler2011"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.OppositeModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="t" value="1.1"/>
+            <parameters name="n" value="3.0"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-Nozomi_O-Opposite_A-IAmHaggler2011">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2010.Nozomi_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_IAMHaggler2011"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.OppositeModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="n" value="3.0"/>
+            <parameters name="t" value="1.1"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-TheNegotiator_O-Uniform_A-IAmHaggler2011">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.TheNegotiator_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_IAMHaggler2011"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.UniformModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="t" value="1.1"/>
+            <parameters name="n" value="3.0"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-TheNegotiator_O-Bayessian_A-IAmHaggler2011">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.TheNegotiator_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_IAMHaggler2011"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <parameters name="m" value="0.0"/>
+            <item classpath="negotiator.boaframework.opponentmodel.BayesianModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="t" value="1.1"/>
+            <parameters name="n" value="3.0"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-Nozomi_O-Bayessian_A-IAmHaggler2011">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2010.Nozomi_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_IAMHaggler2011"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <parameters name="m" value="0.0"/>
+            <item classpath="negotiator.boaframework.opponentmodel.BayesianModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="n" value="3.0"/>
+            <parameters name="t" value="1.1"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-TheNegotiator_O-Bayessian_A-HardHeaded">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.TheNegotiator_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_HardHeaded"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <parameters name="m" value="0.0"/>
+            <item classpath="negotiator.boaframework.opponentmodel.BayesianModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="t" value="1.1"/>
+            <parameters name="n" value="3.0"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-Nozomi_O-Bayessian_A-HardHeaded">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2010.Nozomi_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_HardHeaded"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <parameters name="m" value="0.0"/>
+            <item classpath="negotiator.boaframework.opponentmodel.BayesianModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="t" value="1.1"/>
+            <parameters name="n" value="3.0"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-BRAMAgent_O-Uniform_A-HardHeaded">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.BRAMAgent_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_HardHeaded"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.UniformModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="n" value="3.0"/>
+            <parameters name="t" value="1.1"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-BRAMAgent_O-Bayessian_A-HardHeaded">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.BRAMAgent_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_HardHeaded"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <parameters name="m" value="0.0"/>
+            <item classpath="negotiator.boaframework.opponentmodel.BayesianModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="t" value="1.1"/>
+            <parameters name="n" value="3.0"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-BRAMAgent_O-Bayessian_A-IAmHaggler2011">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.BRAMAgent_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_IAMHaggler2011"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <parameters name="m" value="0.0"/>
+            <item classpath="negotiator.boaframework.opponentmodel.BayesianModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="n" value="3.0"/>
+            <parameters name="t" value="1.1"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-BRAMAgent_O-Uniform_A-IAmHaggler2011">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.BRAMAgent_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_IAMHaggler2011"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.UniformModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="t" value="1.1"/>
+            <parameters name="n" value="3.0"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-BRAMAgentt_O-Opposite_A-IAmHaggler2011">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.BRAMAgent_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_IAMHaggler2011"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.OppositeModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="n" value="3.0"/>
+            <parameters name="t" value="1.1"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+    <boaparties partyName="B-BRAMAgent_O-Opposite_A-HardHeaded">
+        <properties/>
+        <biddingStrategy>
+            <item classpath="negotiator.boaframework.offeringstrategy.anac2011.BRAMAgent_Offering"/>
+        </biddingStrategy>
+        <acceptanceStrategy>
+            <item classpath="negotiator.boaframework.acceptanceconditions.anac2011.AC_HardHeaded"/>
+        </acceptanceStrategy>
+        <opponentModel>
+            <item classpath="negotiator.boaframework.opponentmodel.OppositeModel"/>
+        </opponentModel>
+        <omStrategy>
+            <parameters name="n" value="3.0"/>
+            <parameters name="t" value="1.1"/>
+            <item classpath="negotiator.boaframework.omstrategy.OfferBestN"/>
+        </omStrategy>
+    </boaparties>
+</boaPartiesList>
